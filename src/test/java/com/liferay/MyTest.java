@@ -26,14 +26,14 @@ import java.nio.charset.Charset;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Main {
+public class MyTest {
 
     private static final String NEW_TARGET_USER_EMAIL = "liferayattacker@host.nl";
 
     private String liferayHost;
     private int liferayPort;
 
-    private static final Logger LOG = LoggerFactory.getLogger(Main.class);
+    private static final Logger LOG = LoggerFactory.getLogger(MyTest.class);
 
     private static UserCacheModel userCacheModel = new UserCacheModel();
 
